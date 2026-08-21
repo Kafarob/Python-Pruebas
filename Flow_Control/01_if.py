@@ -84,3 +84,24 @@ else:
 
 #Aca damos vuelta la tortilla y vamos con otras opciones
 #Obvio cada uno lo resuelve teniendo en cuenta cuanta cantidad de variables y datos necesita revisan con las condiciones!
+
+
+#Un ejemplo con los booleanos osea los True y False son los numeros, como hice bien al principio, cualquier numero da como resultado True
+#Ya sea negativo, par inpar etc. Pero si el valor es 0 entocnes siempre mostrara un False como resultado
+
+#Ejemplo:
+
+numero = 1
+if numero:
+    print("El numero no es cero")
+
+numero = 0
+if numero:
+    print("Aca no entra nunca la revision de codigo")#Por que? por que ya el numero uno es True y activa el primer if
+
+
+
+nombre = "Juan"
+if nombre:
+    print("El nombre no esta vacio") #En este caso los textos cuando estan vacios se mantienen como False pero en este caso Dice Juan
+#Entonces cuando se ejecute mostrara el texto del print ya que siempre da True en la condicion if
