@@ -26,6 +26,5 @@ print(f"Hola {Nombre}, un gusto hablar contigo de nuevo! y tenes {age} años, y 
 
 print("Ahora vamos a obtener multiples valores al mismo tiempo")
 
-Pais, Ciudad = input("En que pais y ciudad vives?\n").split()
-
+Pais, Ciudad = input("En que pais y ciudad vives?\n").split()# split() divide el texto ingresado en varias partes, usando los espacios
 print(f"Tu entonces vives en {Pais}, {Ciudad}")
