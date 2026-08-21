@@ -1,2 +1,2 @@
-Va desde el 01 al numero que llegue
-Se van a ir agregando mas con el tiempo y a medida que aprenda xd
+Carpetas con contenido basico\n
+Y tambien se van a ir agregando carpetas con contenidos mas avanzados o diferentes
