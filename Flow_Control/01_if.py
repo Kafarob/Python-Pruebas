@@ -105,3 +105,26 @@ nombre = "Juan"
 if nombre:
     print("El nombre no esta vacio") #En este caso los textos cuando estan vacios se mantienen como False pero en este caso Dice Juan
 #Entonces cuando se ejecute mostrara el texto del print ya que siempre da True en la condicion if
+
+#Un ejemplo para tener cuidado a la hora de comparar y poner bien los signos de =
+
+numero = 3 #Asignacion
+es_el_tres = numero == 3 #Comparacion
+if es_el_tres:
+   print("El numero es 3")
+
+
+
+
+print("\n Moemnto de la Condicion Ternaria:")
+#Esto es una forma concisa de un if-else
+#El codigo se escribe asi: [código si cumple la condición], if ,[condicion], else ,[codigo si no cumple].
+
+edad = 17
+mensaje = "es mayor de edad" if edad >= 18 else "Es menor de edad" #Se puede hacer asi o directamente con un print tambien
+print(mensaje)
+#Por suerte python siempre busca parecerse a una oracion y algo que se puede leer en ingles tranquilamente
+#Por eso se puede llegar a armar este tipo de codigo y condicion en una sola oracion
+#Esto seria la condicion ternaria
+
+
