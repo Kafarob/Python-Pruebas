@@ -21,22 +21,3 @@
 # - Adolescente (13-17 años)
 # - Adulto (18-64 años)
 # - Adulto mayor (65 años o más)
-
-
-
-print("\nEjercicio 4:")
-edad = int(input(" Introduce una edad:"))
-
-if 0 <= edad <= 2:
-    print("Edad de bebe")
-elif 3 <= edad <= 12:
-    print("Edad de un niño")
-elif 13 <= edad <= 17:
-    print("Edad de Adolescente")
-elif 18 <= edad <= 64:
-    print("Edad Adulta")
-elif edad >=64:
-    print("Adulto Mayor")
-else:
-    print ("Entrada o edad no valida")
-
