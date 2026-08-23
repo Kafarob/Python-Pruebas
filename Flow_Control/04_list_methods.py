@@ -43,7 +43,7 @@ del lista2[1:3]#Aca usamos el del con rangos para eliminar cierta parte de la li
 print(lista2)
 
 
-#Otrs metodos muy utiles
+#Otros metodos muy utiles
 
 print("Ordenar las listas")
 numeros = [1, 1700, 5, 100, 9999]
