@@ -84,3 +84,11 @@ print(empresas2)
 #key=str.lower: Le dice a Python: "Oye, antes de comparar los nombres para ordenarlos, conviértelos en minúsculas en tu mente, pero no alteres el texto real".
 #Por eso cuando se hace print se siguen mostrando en su formato original, pero python las vio como todas minusculas y pudo ordenarlas
 
+#Coas utiles a tener en cuenta:
+
+numeros3 = [1, 2, 5, 1, 8, 9, 1, 66, 1, 77]
+print(numeros3.count(1))
+#Este metodo .count, sirve para contar cuantas veces cierto elemento se encuentra en la lista, en este caso nos diria 4
+#Tambien le podemos decir que nos verifique si sabe que hay cierto elemento en la lista y nos tire un booleano (True/False)
+print(66 in numeros3)#En este caso como el 66 si esta nos daria True, en caso contrario si le decimos 500 nos daria False
+
