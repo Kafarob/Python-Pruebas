@@ -65,10 +65,36 @@ while contador5 <= 5:
     contador5 += 1
 else:
      print("El bucle ha terminado en 5")
-#la pregunta es, el bucle termino y podriamos poner print sin ningun problema y no pasaria nada
+#la pregunta es, el bucle termino y podriamos poner print sin ningun problema y no pasaria nada?
 #Si se puede hacer normalmente, pero se puede usar para asegurarte al 100% que el bucle termino y se encontro la condicion falsa y termina
-#Un else si hay un break directamente no se activa y nunca se muestra
+#Un ELSE si hay un BREAK directamente no se activa y nunca se muestra el print que pusiste!
 
 
 #Ahora vamos a ver un ejemplo para pedirle a un usuario un numero que tiene que ser positivo
 #Sino no pone algun numero positivo, el bucle no lo deja en paz
+
+numero6 = -1
+while numero6 <= 0:
+    numero6 = int(input("Escribe un numero positivo: "))#Siempre al querer que la persona ingrese un numero hay que poner un int, ya que input es para textos
+    if numero6 <= 0:
+        print("El numero debe ser positivo, intenta de nuevo")
+
+print(f"El numero que has introducido es : {numero6}")
+
+#Ahora vamos a ver un ejemplo con el Try except
+#Esto es por si hay algun tipo de error al introducir lo que se solicita, por ejemplo un numero en en vez de un texto y viceversa
+
+
+numero7 = -1
+
+while numero7 < 0:
+    try:
+        numero7 = int(input("Escribe un numero positivo: "))
+        if numero7 < 0:
+            print("El numero debe ser positivo, intenta de nuevo")
+    except:
+        print("Lo que introduces debe ser un numero")
+
+print(f"El numero que has introducido es: {numero7}")
+
+
